@@ -4,7 +4,7 @@ email: tir.karthi@gmail.com
 description:
    A daily dose of clojure snippets from Clojurians
 baseurl: ""
-url: "http://tirkarthi.github.io/clojure-dose"
+url: "http://tirkarthi.github.io/clojure-dose/"
 twitter_username: tirkarthi
 github_username: tirkarthi
 
