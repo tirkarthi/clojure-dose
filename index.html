@@ -4,16 +4,22 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
-      {% for post in site.posts %}
-      <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <ul class="post-list">
+	<li>
+          <span class="post-meta">Nov 21, 2017</span>
 
           <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <a class="post-link" href="/clojure-dose/clojure-dose/slack/2017/11/21/slack.html">21-11-2017</a>
           </h2>
-      </li>
-      {% endfor %}
+	</li>
+
+	<li>
+            <span class="post-meta">Nov 20, 2017</span>
+
+            <h2>
+		<a class="post-link" href="/clojure-dose/clojure-dose/slack/2017/11/20/slack.html">20-11-2017</a>
+            </h2>
+	</li>
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
